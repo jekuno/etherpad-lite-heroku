@@ -8,7 +8,9 @@
     "ETHERPAD_KEY": {
       "description": "A secret key for etherpad",
       "generator": "secret"
-    },
+    }
+    
+  },
      "addons": [
     "cleardb:ignite"
   ]
