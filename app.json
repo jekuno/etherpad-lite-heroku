@@ -1,0 +1,15 @@
+{
+  "name": "Etherpad",
+  "description": "Etherpad-Lite heroku Button",
+  "repository": "https://github.com/Waterloo/etherpad-lite-heroku",
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Logo_Etherpad.png",
+  "keywords": ["node", "etherpad", "collabration"],
+  "env": {
+    "ETHERPAD_KEY": {
+      "description": "A secret key for etherpad",
+      "generator": "secret"
+    },
+     "addons": [
+    "cleardb:ignite"
+  ]
+}
