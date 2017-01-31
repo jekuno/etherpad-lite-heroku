@@ -2,7 +2,10 @@
 
 This is a wrapper of etherpad-lite for Heroku, incorporating the official release from upstream as a submodule. (This will hopefully make it easier to keep current.)
 
-## quickstart
+## Automatic one-click deployment for Heroku
+Click the "Deploy to Heroku" button at https://elements.heroku.com/buttons/waterloo/etherpad-lite-heroku and you're ready to go.
+
+## Quickstart (manual approach)
 
 1. Set up a Heroku account and configure an app with DB of your choice (default MySQL)
 2. Clone this repo into a directory of your choice
